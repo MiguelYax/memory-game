@@ -1,0 +1,9 @@
+$width: auto;
+
+.container {
+  background: lightgreen;
+  display: grid;
+  grid-template-columns: $width $width $width $width $width;
+  padding: 10px;
+  grid-gap:  10px;
+}
